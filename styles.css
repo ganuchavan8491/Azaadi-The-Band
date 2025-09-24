@@ -1,4 +1,4 @@
-﻿
+
        /* Reset and Base Styles */
         * {
             margin: 0;
@@ -548,6 +548,10 @@
 
         /* Responsive Design */
         @media (max-width: 992px) {
+            html, body {
+  overflow-x: hidden;
+}
+
             .about-content, .contact-content {
                 flex-direction: column;
             }
@@ -562,6 +566,10 @@
         }
 
         @media (max-width: 768px) {
+            html, body {
+  overflow-x: hidden;
+}
+
             .menu-toggle {
                 display: block;
             }
@@ -602,6 +610,10 @@
         }
 
         @media (max-width: 480px) {
+            html, body {
+  overflow-x: hidden;
+}
+
             .hero h1 {
                 font-size: 2rem;
             }
