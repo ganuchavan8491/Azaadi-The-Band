@@ -1,6 +1,6 @@
 # 🎸 Azaadi The Band
 
-<img src="./images/logo.png" alt="Azaadi The Band" width="200">
+<img src="./images/logo.png" alt="Azaadi The Band" width="200" border-radius="50%">
 
 
 Welcome to the official GitHub repository of **Azaadi The Band** – a fusion of soul-stirring music and electrifying performances. This repository houses all the assets and code behind our official website.
