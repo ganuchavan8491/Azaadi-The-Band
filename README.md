@@ -1,6 +1,6 @@
 # 🎸 Azaadi The Band
 
-![Azaadi The Band](https://azaaditheband.com/wp-content/uploads/2023/08/azaadi-the-band-banner.jpg)
+![Azaadi The Band](./images/logo.png)
 
 Welcome to the official GitHub repository of **Azaadi The Band** – a fusion of soul-stirring music and electrifying performances. This repository houses all the assets and code behind our official website.
 
