@@ -423,6 +423,12 @@ header.scrolled {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
+.r-logo{
+    font-size: 2.8rem; 
+    vertical-align: super; 
+    margin-left: 2px;
+}
+
 /* Contact Section */
 .contact-content {
     display: flex;
