@@ -110,6 +110,7 @@ header.scrolled {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .nav-links :active {
@@ -123,6 +124,7 @@ header.scrolled {
     padding: 0;
     margin-right: 32px;
     text-decoration: none;
+    overflow: hidden;
 }
 
 .navbar > a img {
@@ -135,7 +137,7 @@ header.scrolled {
 }
 
 .navbar > a:hover img {
-    transform: scale(1) rotate(-2deg);
+    transform: scale(1.08) rotate(-2deg);
     box-shadow: 0 6px 18px rgba(0,0,0,0.18);
 }
 
@@ -571,7 +573,14 @@ footer {
     }
     
     .hero h1 {
-        font-size: 3.5rem;
+        font-size: 4rem;
+        margin-top: -20px;
+        letter-spacing: 2px;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+        margin-top: -40px;
     }
     
     .event-list {
@@ -607,7 +616,17 @@ footer {
     }
     
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
+        margin-top: -15px;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-top: -30px;
+        text-align: center;
+        padding: 0 15px;
     }
     
     .section-title h2 {
@@ -621,11 +640,17 @@ footer {
 
 @media (max-width: 480px) {
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2.3rem;
+        margin-top: -10px;
+        letter-spacing: 1px;
+        line-height: 1.2;
     }
-    
+
     .hero p {
-        font-size: 1.1rem;
+        font-size: 0.95rem;
+        margin-top: -25px;
+        line-height: 1.5;
+        padding: 0 10px;
     }
     
     .section-title h2 {
